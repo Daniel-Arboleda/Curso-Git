@@ -1,0 +1,69 @@
+1) Verificar la versión de Git
+    git --version
+
+2) Configurar el nombre del usuario
+    git config --global user.name "NameUser"
+
+3) Configurar el correo del usuario
+    git config --global user.email "useremail@email.com"
+
+4) Crear documentos o archivos desde el terminal CMD de Windows
+    echo > "nombreArchivo.extensión"
+
+5) Iniciar el repositorío
+    git init
+
+6) Abrir VSC desde la terminal CMD de Windows
+    code .
+
+7) Verificar el estatus del repositorio, si el archivo se visualiza de color verde quiere decir que estamos dentro de ese repositorio
+    git status
+
+8) Crear el commit que es el equivalente a guardar el progreso en la documentación de los cambios, existe dos maneras, actualizando todos los archivos de manera general o actualizando un archivo en especifico
+    git add.
+    git add "nombreArchivo.extensión"
+
+9) Crear el mensaje commit para indicar de manera clara y concisa cuáles fuerón los cambios o actualizaciones generadas en el trabajo
+    git commit -m "cambios"
+
+10) Verificar la lista de commits creados
+    git log
+
+11) Abrir un commit o una versión anterior de los archivos
+    git checkout "códigoId del archivo"
+
+12) Listar los Brench o Ramas del proyecto
+    git Brench
+
+13) Para camnbiar o moverse entre los Brench o Ramas del proyecto
+    git switch "nombreBrench"
+
+14) Crear una nueva Brench o Rama
+    git brench nombreBrench
+
+15) Cambiar o moverse entre Brench o Ramas
+    git checkout nombreBrench
+
+16) Crear Rama con atajo de redirección a la Rama creada
+    git checkout -b nombreBrench
+
+17) Cambiar el nombre de la Rama
+    git brench -m nombreAntigüo nombreNuevo
+
+18) Eliminar Brench o Rama
+    git brench -d nombreBrench
+
+19) Forzar la eliminación de una Rama
+    git brench -D nombreBrench
+
+20) Visualizar todas las funciones del brench  
+    git brench -h
+
+21) Sincronizar repositorio local ocn el cloud Conectar con GitHub
+    git remote add origin URL
+
+22) Arrojar el main (master) o repositorio principal al repositorio en la nombreNuevo
+    git push origin mainMaster
+
+23) Consultar si existen cambios por sincronizar
+    git pull
